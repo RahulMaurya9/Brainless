@@ -1,0 +1,3 @@
+def simpleArraySum(ar):
+    # Simple sum() python to add list data.
+    return sum(ar)
