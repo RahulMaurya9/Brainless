@@ -1,0 +1,5 @@
+def matchingStrings(strings, queries):
+    new =[]
+    for i in queries:
+        new.append(strings.count(i))
+    return new
