@@ -1,0 +1,3 @@
+def reverseArray(a):
+    #simple reversed funtion use for reversing array or list data
+    return reversed(a)
