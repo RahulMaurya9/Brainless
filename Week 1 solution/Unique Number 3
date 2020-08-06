@@ -1,0 +1,8 @@
+N= int(input())
+for i in range(N):
+    M,S = map(int,input().split())
+    arr = list(map(int, input().rstrip().split()))
+    new_arr=list(set(arr))
+    for i in new_arr:
+        if arr.count(i)==1:
+            print(i)
